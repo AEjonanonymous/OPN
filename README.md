@@ -1,2 +1,5 @@
-# OPN
-A Formal Proof of the Non-Existence of Odd Perfect Numbers for Euler Primes p ≥ 5 via Structural Divisibility Constraints
+While computational searches have verified the non-existence of odd perfect numbers for all values up to 10^1500, the existence of odd perfect numbers remains one of the oldest unsolved problems in number theory.
+
+According to Euler's theorem, an odd perfect number must take the form N = p^k m^2 where p is a prime such that p ≡ k ≡ 1 (mod 4). This paper presents a proof of the non-existence of such numbers for the domain p ≥ 5. By analyzing the abundancy index I(m^2) = σ(m^2)/m^2, we establish a collision of bounds between the identity-mandated abundancy ceiling and the lower bound forced by the divisibility of the H-factor (σ(p^k)/2) within the square component m^2.
+
+We demonstrate that for all p ≥ 5 the minimal prime factors forced into m^2 by the Euler prime's structure generate an abundancy that exceeds the maximum allowable ratio required by the perfect number identity. This structural incompatibility creates an empty set for the defined domain. The logical chain of inequalities was formally verified using the Lean 4 theorem prover, confirming that the contradiction is absolute across all k ≥ 1 and p ≥ 5.
