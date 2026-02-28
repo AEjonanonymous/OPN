@@ -34,6 +34,5 @@ The logical chain of inequalities was **formally verified using the Lean 4 theor
 
 * **Language:** Lean 4 Web
 * **File(s):** `OPN-Proof1.lean` and `OPN-Proof2.lean`
----
 
-Would you like me to draft a `CONTRIBUTING.md` file designed for a mathematics verification project?
+---
