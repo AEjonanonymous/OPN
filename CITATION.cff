@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Please cite this research as follows."
+authors:
+  - name: "Jonathan ƒ(n)"
+title: "A Formal Proof of the Non-Existence of Odd Perfect Numbers for Euler Primes p ≥ 5 via Structural Divisibility Constraints"
+version: 1.0
+doi: 10.5281/zenodo.18351748
+date-released: 2026-01-23
